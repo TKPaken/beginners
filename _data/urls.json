@@ -1,0 +1,29 @@
+[
+  {
+    "text": "Home",
+    "url": "/",
+    "icon": "fa-home"
+  },
+  {
+    "text": "Algorithm",
+    "url": "/category/algorithm",
+    "icon": "fa-code"
+  },
+  {
+    "text": "About",
+    "url": "/about/",
+    "icon": "fa-comments"
+  },
+  {
+    "text": "Github",
+    "url": "https://github.com/TKPaken",
+    "icon": "fa-github",
+    "target":"_blank"
+  },
+  {
+    "text": "XML Feed",
+    "url": "/feed.xml",
+    "icon": "fa-feed",
+    "target": "_blank"
+  }
+]
