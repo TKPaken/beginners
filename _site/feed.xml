@@ -5,8 +5,8 @@
     <description>Paken Web</description>
     <link>http://localhost:4000/beginners/</link>
     <atom:link href="http://localhost:4000/beginners/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Mar 2020 22:54:22 +0900</pubDate>
-    <lastBuildDate>Wed, 25 Mar 2020 22:54:22 +0900</lastBuildDate>
+    <pubDate>Thu, 26 Mar 2020 07:13:25 +0900</pubDate>
+    <lastBuildDate>Thu, 26 Mar 2020 07:13:25 +0900</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -192,11 +192,13 @@
 
 &lt;p&gt;categories は空白区切り（多分使わないと思うけど）&lt;/p&gt;
 
-&lt;p&gt;beginner とかにしておくといいかな。&lt;/p&gt;
+&lt;p&gt;beginners とかにしておくといいかな。&lt;/p&gt;
 
 &lt;p&gt;title は適当でいいですが、ダブルクオーテーションで囲む&lt;/p&gt;
 
 &lt;p&gt;ファイル名は日付-名前.mdにすること！！&lt;/p&gt;
+
+&lt;p&gt;日付は2020-1-(章の番号,1-indexed)&lt;/p&gt;
 
 &lt;p&gt;画像とかのサンプルは上のJOI予選解説の markdown を見てください&lt;/p&gt;
 
@@ -204,9 +206,9 @@
 
 &lt;p&gt;公開する時に消します。&lt;/p&gt;
 </description>
-        <pubDate>Wed, 25 Mar 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/beginners/data-structure/algorithm/2020/03/25/sample.html</link>
-        <guid isPermaLink="true">http://localhost:4000/beginners/data-structure/algorithm/2020/03/25/sample.html</guid>
+        <pubDate>Tue, 31 Dec 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/beginners/data-structure/algorithm/2019/12/31/sample.html</link>
+        <guid isPermaLink="true">http://localhost:4000/beginners/data-structure/algorithm/2019/12/31/sample.html</guid>
         
         
         <category>data-structure</category>
@@ -221,19 +223,19 @@
 
 &lt;h1 id=&quot;はじめに&quot;&gt;はじめに&lt;/h1&gt;
 
-&lt;p&gt;まずは、JOI 予選 お疲れ様でした〜。&lt;/p&gt;
+&lt;p&gt;まずは、JOI予選お疲れ様でした〜。&lt;/p&gt;
 
-&lt;p&gt;自分はギリギリ 全完できましたが、かなり WA とか出して苦しみました…&lt;/p&gt;
+&lt;p&gt;自分はギリギリ全完できましたが、かなりWAとか出して苦しみました…&lt;/p&gt;
 
-&lt;p&gt;構文解析 が出たのはびっくりです。&lt;/p&gt;
+&lt;p&gt;構文解析が出たのはびっくりです。&lt;/p&gt;
 
-&lt;p&gt;競技の時は 構文解析 知らなかったので、 自己開発（？）しました。&lt;/p&gt;
+&lt;p&gt;競技の時は構文解析知らなかったので、自己開発（？）しました。&lt;/p&gt;
 
 &lt;p&gt;相当時間がかかっていて、競技時間の半分以上を最終問題に費やしたことになります。&lt;/p&gt;
 
 &lt;p&gt;めっちゃ疲れました。体力って大事ですね…。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/begineers/assets/JOI2019-2020-yo-result.png&quot; alt=&quot;JOI2019/2020-予選-結果&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/beginners/assets/JOI2019-2020-yo-result.png&quot; alt=&quot;JOI2019/2020-予選-結果&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;1問目-ポスター-poster&quot;&gt;1問目 ポスター (Poster)&lt;/h1&gt;
 
