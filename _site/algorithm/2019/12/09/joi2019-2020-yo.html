@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="/beginners/static/img/favicon.ico" />
+        <title>JOI 2019 / 2020 2次予選 解説 - Paken for beginners</title>
+        <meta name="author" content="Paken" />
+        <meta name="description" content="JOI 2019 / 2020 2次予選 解説" />
+        <meta name="keywords" content="JOI 2019 / 2020 2次予選 解説, Paken for beginners, algorithm" />
+
+        <meta content="" property="fb:app_id">
+        <meta content="Paken for beginners" property="og:site_name">
+        
+          <meta content="JOI 2019 / 2020 2次予選 解説" property="og:title">
+        
+        
+          <meta content="article" property="og:type">
+        
+        
+          <meta content="Paken Web" property="og:description">
+        
+        
+          <meta content="http://localhost:4000/algorithm/2019/12/09/joi2019-2020-yo.html" property="og:url">
+        
+        
+          <meta content="2019-12-09T00:00:00+09:00" property="article:published_time">
+          <meta content="http://localhost:4000/about/" property="article:author">
+        
+        
+          <meta content="http://localhost:4000/static/img/logo-high-resolution.png" property="og:image">
+        
+        
+          
+          <meta content="algorithm" property="article:section">
+          
+        
+        
+          
+        
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@tk_paken">
+        <meta name="twitter:creator" content="@tk_paken">
+        
+          <meta name="twitter:title" content="JOI 2019 / 2020 2次予選 解説">
+        
+        
+          <meta name="twitter:url" content="http://localhost:4000/algorithm/2019/12/09/joi2019-2020-yo.html">
+        
+        
+          <meta name="twitter:description" content="Paken Web">
+        
+        
+
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+      <script type="text/javascript">window.baseurl = 'http://localhost:4000';</script>
+      
+        <!-- Custom Fonts -->
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+
+        <!-- FontAwesome icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/74dfc6cf47.css">
+
+        <!-- Core BootStrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <!-- Material Design CSS -->
+        <link rel="stylesheet" href="/beginners/static/css/bootstrap-material-design.min.css">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/beginners/static/css/syntax.css">
+
+        <!-- Custom CSS -->        
+        <link rel="stylesheet" href="/beginners/static/css/thickbox.css">
+        <link rel="stylesheet" href="/beginners/static/css/main.css">
+        <link rel="stylesheet" href="/beginners/static/css/projects.css">
+
+        <script type="text/javascript">
+          //loadingImage is relative to project dir
+          var tb_pathToImage = "/beginners/static/img/loadingAnimation.gif";
+        </script>
+
+  </head>
+
+  <body class="home overflow-hidden">
+    <div class="header-panel shadow-z-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-4 col-xs-12">
+            <div class="row-picture">
+              <img id="about" class="logo-img" src="/beginners/static/img/avatar.png" height="75px" width="75px">
+            </div>
+            <div class="row-details">
+              <h4 class="list-group-item-heading">Paken</h4>
+              <p class="list-group-item-text">for beginner</p>
+              <div class="social-icons">
+	
+        <a class="icon" target="_blank" href="https://twitter.com/tk_paken"><i class="fa fa-twitter"></i></a>
+    
+</div>
+
+            </div>
+            <div class="navbar-header pull-right">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-2x fa-bars"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-9 col-sm-8 col-xs-12">
+          <div class="row">
+            <h2 class="blog-title-pro col-md-6 col-sm-12 col-xs-12 ">JOI 2019 / 2020 2次予選 解説</h2>
+            
+            <div class="col-md-6 col-sm-12 col-xs-12 searchcontrol" id="js-search">
+              <input class="form-control" type="text" id="js-search__input" placeholder="Search">
+              <ul class="search__results" id="js-search__results"></ul>
+            </div>
+            
+            </div>
+            <p class="info">
+              
+                <span class="time">09 Dec 2019</span>
+              
+              
+                <span class="categories">
+                  &raquo; 
+                  
+                    <a href="/beginners/category/algorithm">algorithm</a>
+                    
+                  
+                </span>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container main outer">
+      <div class="row">
+        <div class="col-md-3 col-xs-12">
+              <nav class="menu">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="list-separator nav navbar-nav well well-primary post">
+
+	
+	
+	
+	
+	
+	
+    
+	
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  joi2019-2020-yo.html"><a href="/beginners/" target="_self"><i class="fa fa-home"></i> Home</a></li>
+
+	
+	
+	
+	
+	
+	
+    
+	
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  joi2019-2020-yo.html"><a href="/beginners/category/algorithm" target="_self"><i class="fa fa-code"></i> Algorithm</a></li>
+
+	
+	
+	
+	
+	
+	
+    
+	
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  joi2019-2020-yo.html"><a href="/beginners/about/" target="_self"><i class="fa fa-comments"></i> About</a></li>
+
+	
+	
+	
+	
+	
+	
+    
+	
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  joi2019-2020-yo.html"><a href="https://github.com/TKPaken" target="_blank"><i class="fa fa-github"></i> Github</a></li>
+
+	
+	
+	
+	
+	
+	
+    
+	
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  joi2019-2020-yo.html"><a href="/beginners/feed.xml" target="_blank"><i class="fa fa-feed"></i> XML Feed</a></li>
+
+</ul>
+
+    </div>
+    </nav>
+
+        </div>
+        <div class="col-md-9 col-xs-12 full">
+          <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<div class="post-content well">
+<article class="content">
+    <div class="post"><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<h1 id="はじめに">はじめに</h1>
+
+<p>まずは、JOI 予選 お疲れ様でした〜。</p>
+
+<p>自分はギリギリ 全完できましたが、かなり WA とか出して苦しみました…</p>
+
+<p>構文解析 が出たのはびっくりです。</p>
+
+<p>競技の時は 構文解析 知らなかったので、 自己開発（？）しました。</p>
+
+<p>相当時間がかかっていて、競技時間の半分以上を最終問題に費やしたことになります。</p>
+
+<p>めっちゃ疲れました。体力って大事ですね…。</p>
+
+<p><img src="/begineers/assets/JOI2019-2020-yo-result.png" alt="JOI2019/2020-予選-結果" /></p>
+
+<h1 id="1問目-ポスター-poster">1問目 ポスター (Poster)</h1>
+
+<p><br /></p>
+
+<p><img src="/beginners/assets/JOI2019-2020-yo-problemA.png" alt="JOI2019/2020-予選A問題" /></p>
+
+<p>競技が開始されて、<script type="math/tex">1</script>問目を見た瞬間びっくりしました。</p>
+
+<p>予想より遥かに難しい問題だったからです。</p>
+
+<p>とはいえ、冷静に考えれば簡単です。</p>
+
+<p><br /></p>
+
+<h2 id="解法">解法</h2>
+
+<p><img src="/beginners/assets/JOI2019-2020-yo-A-editorial.png" alt="JOI2019/2020-予選A問題解説" /></p>
+
+<p>図のように、<script type="math/tex">4</script>通りの回転方法があります。</p>
+
+<p>それぞれについて、もうひとつのポスターと違う部分の個数を数えてあげればよいです。</p>
+
+<p>回転するために必要な操作の回数を加算するのを忘れないようにしましょう。</p>
+
+<p>よって、 <script type="math/tex">O(N^2)</script> で解けました。</p>
+
+<p>個人的には、難易度 <script type="math/tex">4</script> くらいかな〜と思っています。</p>
+
+<p><br /><br /></p>
+
+<h1 id="2問目-いちご-strawberry">2問目 いちご (Strawberry)</h1>
+
+<p><br /></p>
+
+<p><img src="/beginners/assets/JOI2019-2020-yo-problemB.png" alt="JOI2019/2020-予選B問題" /></p>
+
+<p>そこまで難しくありません。</p>
+
+<p>JOI よりは、 AtCoder という感じがしましたが…。</p>
+
+<p>パズル的な発想です。</p>
+
+<p><br /></p>
+
+<h2 id="解法-1">解法</h2>
+
+<p>地点 <script type="math/tex">0</script> で待ってから、東の端まで行き、帰りにすべて取るのが最適です。</p>
+
+<p>つまり、いちごのある場所の東端が分かれば、各いちごについて地点 <script type="math/tex">0</script> で待つべき時間がわかり、その最大値が答えです。</p>
+
+<p>よって、 <script type="math/tex">O(N)</script> で解けました。</p>
+
+<p>この問題も、難易度 <script type="math/tex">4</script> 相当だと思いました。</p>
+
+<p><br /><br /></p>
+
+<h1 id="3問目-桁和-digit-sum">3問目 桁和 (Digit Sum)</h1>
+
+<p><br /></p>
+
+<p><img src="/beginners/assets/JOI2019-2020-yo-problemC.png" alt="JOI2019/2020-予選C問題" /></p>
+
+<p>すべての問題の中で、一番時間がかからなかったのがこの問題でした。</p>
+
+<p>典型中の典型です。</p>
+
+<p><br /></p>
+
+<h2 id="解法-2">解法</h2>
+
+<p>以下のような <script type="math/tex">DP</script> を考えます。</p>
+
+<h3 id="定義">定義</h3>
+
+<p><script type="math/tex">DP[i] =</script> 結果が <script type="math/tex">i</script> になる通り数</p>
+
+<p><br /></p>
+
+<h3 id="初期化">初期化</h3>
+
+<p><script type="math/tex">DP[i]=1</script> （最初から <script type="math/tex">i</script> だった場合)</p>
+
+<p><br /></p>
+
+<h3 id="遷移">遷移</h3>
+
+<p><script type="math/tex">digitsum(N) = N</script> の桁和として、</p>
+
+<script type="math/tex; mode=display">DP[i+digitsum(i)]+=DP[i]</script>
+
+<p><br /></p>
+
+<h3 id="答え">答え</h3>
+
+<script type="math/tex; mode=display">DP[N]</script>
+
+<p><br /></p>
+
+<p>この <script type="math/tex">DP</script> を <script type="math/tex">1</script> から順に回していけばよいです。</p>
+
+<p>よって、<script type="math/tex">O(N)</script> で解けました。</p>
+
+<p>これは難易度 <script type="math/tex">5</script> くらいでしょうか。</p>
+
+<p><br /><br /></p>
+
+<h1 id="4問目-テンキー-tenkey">4問目 テンキー (Tenkey)</h1>
+
+<p><br /></p>
+
+<p><img src="/beginners/assets/JOI2019-2020-yo-problemD-1.png" alt="JOI2019/2020-予選D問題-1" />
+<img src="/beginners/assets/JOI2019-2020-yo-problemD-2.png" alt="JOI2019/2020-予選D問題-2" /></p>
+
+<p>この問題がAランクの当落を分けたと言っても過言ではないのではないでしょうか。</p>
+
+<p><br /></p>
+
+<h2 id="解法-3">解法</h2>
+
+<p><br /></p>
+
+<h3 id="各キーの距離を求める">各キーの距離を求める</h3>
+
+<p>まずは、各キーの距離を求めましょう。</p>
+
+<ol>
+  <li><script type="math/tex">100</script> 通りすべて求める</li>
+  <li>距離が <script type="math/tex">1</script> のものだけ列挙して、全頂点最短経路問題を解く</li>
+</ol>
+
+<p>どちらをやりたいですか？僕は <script type="math/tex">2</script> 番をやりました。</p>
+
+<p><a href="https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E2%80%93%E3%83%95%E3%83%AD%E3%82%A4%E3%83%89%E6%B3%95">ワーシャルフロイド法</a>を使うとやりやすいと思います。</p>
+
+<p><br /></p>
+
+<h3 id="dpをしよう">DPをしよう！</h3>
+
+<p>以下のような <script type="math/tex">DP</script> を考えます。</p>
+
+<p><br /></p>
+
+<h4 id="定義-1">定義</h4>
+
+<p><script type="math/tex">DP[i][j][k]=i</script> 桁まで決めて、<script type="math/tex">M</script> で割ったあまりが <script type="math/tex">j</script> で、最後に使ったキーが <script type="math/tex">k</script> のうち、最小操作回数</p>
+
+<p><br /></p>
+
+<h4 id="初期化-1">初期化</h4>
+
+<script type="math/tex; mode=display">DP[i][j][k]=inf</script>
+
+<script type="math/tex; mode=display">DP[0][0][0]=0</script>
+
+<p><br /></p>
+
+<h4 id="遷移-1">遷移</h4>
+
+<p><script type="math/tex">l</script> は新しく使うキー</p>
+
+<p><script type="math/tex">far[i][j]</script> は、キー <script type="math/tex">i</script> とキー <script type="math/tex">j</script> 間の距離</p>
+
+<p><script type="math/tex">chmin(x,y)</script> は、<script type="math/tex">x</script> に <script type="math/tex">MIN(x,y)</script> を代入する操作</p>
+
+<script type="math/tex; mode=display">chmin(DP[i+1][(j \times 10 + l)\% m][l],DP[i][j][k] + far[k][l] + 1)</script>
+
+<p>これまでの最小回数に、次のキーへの移動回数と、キーを新たに押す回数を加算すればよいです。</p>
+
+<p><br /></p>
+
+<p>実は、この <script type="math/tex">DP</script> を <script type="math/tex">30</script> 桁くらいまでやれば確実に正しい答えが出ます。</p>
+
+<p>なぜなら、<script type="math/tex">0M+R</script>の操作回数よりも、ボタンを押す操作だけで明らかに操作回数が多くなるからです。</p>
+
+<p>ちなみに、<script type="math/tex">30</script>桁は、<script type="math/tex">long long</script>だとTLEしますが、<script type="math/tex">int</script> 型だと通ります。<script type="math/tex">(1139ms)</script></p>
+
+<p>計算量は、<script type="math/tex">DP</script> の各状態からの次のキーがそれぞれ <script type="math/tex">10</script> ずつあるので、<script type="math/tex">O(M \times 30 \times 10 \times 10)</script> くらいです。</p>
+
+<p><script type="math/tex">10^8</script> くらいなので、結構ギリギリですね…。</p>
+
+<p>しかし、計算する桁数は <script type="math/tex">15</script> 桁でも十分なようです。</p>
+
+<p>なぜでしょうか…？</p>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/Pro_ktmr?ref_src=twsrc%5Etfw">@Pro_ktmr</a> <br />終わりました<br />実際は 14 桁で足りたようです</p>&mdash; 熨斗袋 (@noshi91) <a href="https://twitter.com/noshi91/status/1204259826810769408?ref_src=twsrc%5Etfw">December 10, 2019</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>ちなみに、他の解法としては、<script type="math/tex">DP[i][j]=mod M</script> で <script type="math/tex">i</script> 、最後が <script type="math/tex">j</script> の最小として拡張ダイクストラをする方法もあるらしいです。</p>
+
+<p><br /></p>
+
+<p>実は、<a href="https://atcoder.jp/contests/otemae2019/tasks/otemae2019_d">大手前プロコン-D-FizzBuzz</a>で遷移の似たような問題が出題されていました。</p>
+
+<p>この問題は難易度 <script type="math/tex">7</script> くらいだと思います。</p>
+
+<p><br /><br /></p>
+
+<h1 id="5問目-じゃんけん式-rock-scissors-paper-expression">5問目 じゃんけん式 (Rock-Scissors-Paper Expression)</h1>
+
+<p><br /></p>
+
+<p><img src="/beginners/assets/JOI2019-2020-yo-problemE.png" alt="JOI2019/2020-予選E問題" /></p>
+
+<p>問題見た瞬間解く気が失せますね…。</p>
+
+<p>今まで見たことのないような問題のタイプです。</p>
+
+<p>構文解析というらしいです。</p>
+
+<p>意外と解けている人が多くてびっくり。</p>
+
+<p><br /></p>
+
+<h2 id="解法-4">解法</h2>
+
+<p><img src="/beginners/assets/JOI2019-2020-yo-E-editorial1.png" alt="JOI2019/2020-予選E問題解説1" /></p>
+
+<p>この図のように、再帰的に計算することで解くことができます。</p>
+
+<p>括弧の両端がどこにあるかは、stack などを使うと、前処理で <script type="math/tex">O(N)</script> で構築できます。</p>
+
+<p>これをしないと、括弧が大量にある式の場合、括弧があるごとに終端まで走査することになり、<script type="math/tex">O(N^2)</script> かかってしまいます。</p>
+
+<p>式 <script type="math/tex">E</script> の <script type="math/tex">[l,r)</script> について、(<script type="math/tex">R</script> になる通り数),(<script type="math/tex">P</script> になる通り数),(<script type="math/tex">S</script> になる通り数)を返す関数を実装するとやりやすいと思います。</p>
+
+<p>計算量は <script type="math/tex">O(N)</script> ですが、少し掴みにくいと思うので図で説明します。</p>
+
+<p><img src="/beginners/assets/JOI2019-2020-yo-E-editorial2.png" alt="JOI2019/2020-予選E問題解説2" /></p>
+
+<p>この問題は、式をどういう順番で計算すればいいのかということが難しく、部分点も難しいです。</p>
+
+<p>というか、計算順序が分かるなら満点取れるのでは…というのが正直なところです。</p>
+
+<p>難易度 <script type="math/tex">9</script> くらいあるんじゃないかという感じです。</p>
+
+<p><br /><br /></p>
+
+<h1 id="総括">総括</h1>
+
+<p>得点表を見たら、三分の一くらいの人が <script type="math/tex">330</script> 点でしたね…。</p>
+
+<p>3問目がもうちょっと難しかったらバラついてたかもしれません。</p>
+
+<p>満点も既に <script type="math/tex">20</script> 人以上出ていました。</p>
+
+<p>去年は双子しか満点を取っていないことを考えると、実に <script type="math/tex">10</script> 倍以上…。</p>
+
+<p>ボーダーは <script type="math/tex">350</script> か <script type="math/tex">370</script> くらいだろうなあ〜と思っています。</p>
+
+<p>これで一喜一憂することなく、本選に向けて頑張るぞい！</p>
+
+<p>最後まで読んでいただきありがとうございました。</p>
+
+<p>できれば拡散もよろしくお願いします。</p>
+</div>
+    <hr />
+    <div class="share-page">
+    Share this on &rarr;
+ <a href="https://twitter.com/share" class="twitter-share-button" data-via="tk_paken">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<!-- Google + -->
+<div class="g-plus" data-action="share" data-annotation="bubble"></div>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<!-- Facebook -->
+<div class="fb-share-button" data-href="http://localhost:4000/algorithm/2019/12/09/joi2019-2020-yo.html" data-layout="button_count" style="position: relative; top: -8px; left: 3px;"></div>
+</div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</article>
+<hr />
+
+
+    
+    
+        
+            
+        
+    
+        
+            
+                
+                <div class="panel-body">
+                <h4>Related Posts</h4>
+                <ul>
+                
+                <li class="relatedPost">
+                    <a href="http://localhost:4000/data-structure/algorithm/2020/03/25/sample.html">サンプル</a>
+                    
+                        <small>(Categories: <a href="/category/data-structure">data-structure</a>, <a href="/category/algorithm">algorithm</a>)</small>
+                    
+                </li>
+                
+                
+            
+        
+    
+
+    
+    
+        
+            
+        
+    
+
+
+    </ul>
+    </div>
+
+
+<div class="PageNavigation">
+  
+  
+    <a class="next pull-right" href="http://localhost:4000/data-structure/algorithm/2020/03/25/sample.html">サンプル &raquo;</a>
+  
+</div>
+
+
+<div class="disqus-comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+
+        var disqus_shortname = "aboutashu";
+        var disqus_identifier = "http://localhost:4000_JOI 2019 / 2020 2次予選 解説";
+        var disqus_title = "JOI 2019 / 2020 2次予選 解説";
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    /* ]]> */
+    </script>
+</div>
+</div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 footer">
+              <footer>
+  © 2020 Paken  - Powered by Jekyll.
+</footer>
+<!--
+<div align="center">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-0000000000000000"
+    data-ad-slot="0000000000"
+    data-ad-format="auto"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+-->
+            </div>
+          </div>
+        </div> <!-- end /.col-md-9 -->
+      </div> <!-- end /.row -->
+    </div>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script src="/beginners/static/js/super-search.js"></script>
+
+<script src="/beginners/static/js/thickbox-compressed.js"></script>
+<script src="/beginners/static/js/material.min.js"></script>
+<script src="/beginners/static/js/main.js"></script>
+<script src="/beginners/static/js/projects.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154122952-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-154122952-1');
+</script>
+
+  </body>
+</html>
