@@ -31,6 +31,7 @@ ___
 
 2. 次にXcodeのなかに「bits」というディレクトリを作ります。これを作るにはターミナルというアプリケーションを使います。ターミナルを開いて
 >cd /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1 
+
 と入力します（cd と /Applicationsの間に空白。途中に改行はない）
 
 3. これは Xcode内のC++でインクルードできるファイル達が入っているディレクトリに移動したということです
@@ -42,9 +43,11 @@ ___
 と入力して下さい。パスワードが求められるので、macにログインするためのパスワードを入れて下さい
 次に、ターミナルに
 >cd
+
 と入力してから先ほどダウンロードしたフォルダをターミナルの画面にドラッグ＆ドロップしましょう。
 改行してから
 >sudo mv stdc++.h /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/bits
+
 と入力してbitsにstdc++.hを移動して下さい。
 これで作業は完了です。
 
