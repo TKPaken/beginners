@@ -13,7 +13,7 @@ title: Home
           <div class="least-content">{{ post.date | date_to_string }}</div>
           <h4 class="list-group-item-heading"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
 
-          <p class="list-group-item-text">{{ post.content | strip_html | truncatewords: 3 }}</p>
+          <p class="list-group-item-text">{{ post.content | strip_html | truncatewords: 1 }}</p>
         </div>
       </div>
       <div class="list-group-separator"></div>
