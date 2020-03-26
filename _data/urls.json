@@ -5,8 +5,43 @@
     "icon": "fa-home"
   },
   {
-    "text": "Beginners",
-    "url": "/category/beginners",
+    "text": "Chapter0",
+    "url": "/category/chapter0",
+    "icon": "fa-code"
+  },
+  {
+    "text": "Chapter1",
+    "url": "/category/chapter1",
+    "icon": "fa-code"
+  },
+  {
+    "text": "Chapter2",
+    "url": "/category/chapter2",
+    "icon": "fa-code"
+  },
+  {
+    "text": "Chapter3",
+    "url": "/category/chapter3",
+    "icon": "fa-code"
+  },
+  {
+    "text": "Chapter4",
+    "url": "/category/chapter4",
+    "icon": "fa-code"
+  },
+  {
+    "text": "Chapter5",
+    "url": "/category/chapter5",
+    "icon": "fa-code"
+  },
+  {
+    "text": "Chapter6",
+    "url": "/category/chapter6",
+    "icon": "fa-code"
+  },
+  {
+    "text": "Chapter7",
+    "url": "/category/chapter7",
     "icon": "fa-code"
   },
   {
