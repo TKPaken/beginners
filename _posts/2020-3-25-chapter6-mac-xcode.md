@@ -7,4 +7,4 @@ mathjax: true
 ---
 
 # Macでの環境構築(XCodeの場合)
-## written by AndrewK
+## written by AndrewK 
