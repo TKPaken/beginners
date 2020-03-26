@@ -5,8 +5,8 @@
     <description>Paken Web</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/beginners/beginners/sitemap.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Mar 2020 09:35:41 +0900</pubDate>
-    <lastBuildDate>Thu, 26 Mar 2020 09:35:41 +0900</lastBuildDate>
+    <pubDate>Thu, 26 Mar 2020 10:59:55 +0900</pubDate>
+    <lastBuildDate>Thu, 26 Mar 2020 10:59:55 +0900</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -76,7 +76,39 @@
     
       <item>
         <title>Chapter1</title>
-        <description>&lt;h1 id=&quot;u-can-edit-here&quot;&gt;u can edit here&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;パ研へようこそ&quot;&gt;パ研へようこそ！&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/beginners/assets/chapter1/computer_programming_man.png&quot; width=&quot;30%&quot; alt=&quot;部員の様子&quot; align=&quot;right&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;新入部員のみなさん、入学おめでとうございます。&lt;/p&gt;
+
+&lt;p&gt;そして、パ研へようこそ！&lt;/p&gt;
+
+&lt;p&gt;パ研ことパソコン研究部は、パソコンを使って好きな事ができる部活です。&lt;/p&gt;
+
+&lt;p&gt;活動内容はCGなど様々ですが、主に&lt;strong&gt;プログラミング&lt;/strong&gt;です。&lt;/p&gt;
+
+&lt;p&gt;一言にプログラミングと言っても、スマホアプリやデスクトップアプリ、Webアプリなど分野は様々です。&lt;/p&gt;
+
+&lt;p&gt;最近ではAI開発をやっている部員もいたりします。&lt;/p&gt;
+
+&lt;p&gt;特に、パ研は&lt;strong&gt;競技プログラミング&lt;/strong&gt;と呼ばれる、問題が与えられてそれを効率的に解くアルゴリズムを設計、実装するという分野において日本一の強さを誇ります。&lt;/p&gt;
+
+&lt;p&gt;競技プログラミングの大きな大会として情報オリンピックがあります（数学オリンピックなどと同様、科学オリンピックの一分野です）。&lt;/p&gt;
+
+&lt;p&gt;この大会で国際大会の日本代表候補に選抜された人の内、なんと約半数がパ研部員でした。&lt;/p&gt;
+
+&lt;p&gt;そして、その内の2名が日本代表に選出されました。&lt;/p&gt;
+
+&lt;p&gt;また、これまでは文化祭期間以外ほとんど競技プログラミングだったのですが、今年度からは方針が変わりました。&lt;/p&gt;
+
+&lt;p&gt;班活動と称して、競技プログラミングだけでなくWeb開発やAI開発、セキュリティ、最新アルゴリズムなどの&lt;strong&gt;様々な分野にいつでも挑戦できる&lt;/strong&gt;環境が整備されました。&lt;/p&gt;
+
+&lt;p&gt;もちろん、何をやるもやらないも自由です。&lt;/p&gt;
+
+&lt;p&gt;皆さんも、自分のやりたい事を見つけてパ研ライフを楽しみましょう！&lt;/p&gt;
+
+&lt;p&gt;もちろん、やりたい事を見つけるためにはまず知識をつけないといけませんから、これからプログラミングについて学んでいきましょう！&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Mar 2020 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/beginners/2020/03/21/chapter1.html</link>
@@ -89,7 +121,13 @@
     
       <item>
         <title>Chapter0</title>
-        <description>&lt;h1 id=&quot;u-can-edit-here&quot;&gt;u can edit here&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;第0章---プログラミングとは&quot;&gt;第0章 - プログラミングとは?&lt;/h1&gt;
+
+&lt;h2 id=&quot;プログラミングとは&quot;&gt;プログラミングとは&lt;/h2&gt;
+
+&lt;p&gt;コンピュータープログラミングとは、ある特定のコンピューティングの結果を得ることを目的として、実行可能なコンピュータープログラムを設計・構築するプロセスのことである。&lt;/p&gt;
+
+&lt;p&gt;こんな感じでやればいいんですか&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Mar 2020 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/beginners/2020/03/20/chapter0.html</link>
