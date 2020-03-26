@@ -23,7 +23,7 @@ ___
 
 これから先は、「#include<bits/stdc++.h>」をどうやって使うかについて話します。Xcodeでこれを使えるようにするには少々面倒くさいので、bits/stdc++.hが使えなくてもいいという人はやらなくても大丈夫です。
 
-基本的にやることは[このqiita記事](https://qiita.com/Atsu30/items/6a4c4c070dd76a236fdc)に書いてあります。（これは管理者権限のあるアカウントでしかできません）
+基本的にやることは[このqiita記事](https://qiita.com/Atsu30/items/6a4c4c070dd76a236fdc)に書いてあります。（***これは管理者権限のあるアカウントでしかできません***）
 
 それではこのqiita記事が何をしているのか解説していきます。
 
@@ -37,5 +37,15 @@ ___
 
 4. 次はmkdirというコマンドを使ってbitsのディレクトリを作ります。
  >mkdir bits
-と入力すると、多分「Permission denied」と出るでしょう。これはOSや
+と入力すると、多分「Permission denied」と出るでしょう。これはOSやアプリケーションのファイルを保護するためです。そこで
+>sudo mkdir bits
+と入力して下さい。パスワードが求められるので、macにログインするためのパスワードを入れて下さい
+次に、ターミナルに
+>cd
+と入力してから先ほどダウンロードしたフォルダをターミナルの画面にドラッグ＆ドロップしましょう。
+改行してから
+>sudo mv stdc++.h /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/bits
+と入力してbitsにstdc++.hを移動して下さい。
+これで作業は完了です。
+
 
