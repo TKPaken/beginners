@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
 categories: beginners
-title: beginners
+title: Beginners
 permalink: /category/beginners
 ---
