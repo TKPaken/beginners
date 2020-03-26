@@ -7,7 +7,7 @@ mathjax: true
 ---
 
 # Macでの環境構築(XCodeの場合)
-## written by AndrewK 
+
 ### Xcodeのセットアップ
 1. まず、macでC++の開発をするには**Xcode**というアプリケーションを使います。Xcodeは予めインストールされているはずの**App Store**というアプリからダウンロードします。
 
@@ -30,26 +30,33 @@ ___
 1. そもそも#include<bits/stdc++.h>は、「bits」というディレクトリ（ファイルの置き場）の中の「stdc++.h」というファイルを読み込むという意味です。しかし、Xcodeにはそれが用意されていないのでそれを使うことができません。なのでまずstdc++.hというファイルをウェブからダウンロードします。
 
 2. 次にXcodeのなかに「bits」というディレクトリを作ります。これを作るにはターミナルというアプリケーションを使います。ターミナルを開いて
-> cd /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1 
+>
+    cd /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1 
 
 と入力します（cd と /Applicationsの間に空白。途中に改行はない）
 
 3. これは Xcode内のC++でインクルードできるファイル達が入っているディレクトリに移動したということです
 
 4. 次はmkdirというコマンドを使ってbitsのディレクトリを作ります。
-> mkdir bits
+> 
+    mkdir bits
 
 と入力すると、多分「Permission denied」と出るでしょう。これはOSやアプリケーションのファイルを保護するためです。そこで
-> sudo mkdir bits
+> 
+    sudo mkdir bits
+
 と入力して下さい。パスワードが求められるので、macにログインするためのパスワードを入れて下さい
-次に、ターミナルに
-> cd
 
-と入力してから先ほどダウンロードしたフォルダをターミナルの画面にドラッグ＆ドロップしましょう。
+5. 次に、ターミナルに
+> 
+    cd
+
+と入力してから先ほどダウンロードしたフォルダ（stdc++.hが入っているやつ）をターミナルの画面にドラッグ＆ドロップしましょう。
 改行してから
-> sudo mv stdc++.h /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/bits
+> 
+    sudo mv stdc++.h /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/bits
 
-と入力してbitsにstdc++.hを移動して下さい。
+と入力するとbitsにstdc++.hが移動します。
 これで作業は完了です。
 
 
