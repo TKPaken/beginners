@@ -49,7 +49,7 @@ mathjax: true
 
 画面の左側にある黄色いヤカンのようなアイコンをクリックしてください。(もし見つからない場合は、声をかけてください)
 
-<img src="/beginners/assets/chapter3/1.png" alt="Geanyアイコン" style="width:30%;" />
+<img src="/beginners/assets/chapter3/1.png" alt="Geanyアイコン" />
 
 するとこのようなものが表示されるはずです。これがGeanyの画面です。
 
@@ -113,6 +113,10 @@ int main(){
 プログラムを実行することができました!
 
 このプログラムは、「こんにちは!」という文字を画面に出力する、というプログラムだったんですね。
+
+「こんにちは!」の後に (program exited with code: 0) というメッセージが出ていますが、これは「プログラムが正常に終了した」という意味だと思ってもらえれば良いです。
+
+この実行画面はEnterキーを押して閉じることができます。
 
 <img src="/beginners/assets/chapter3/9.png" alt="実行できた"  />
 
