@@ -49,11 +49,11 @@ mathjax: true
 
 画面の左側にある黄色いヤカンのようなアイコンをクリックしてください。(もし見つからない場合は、声をかけてください)
 
-<img src="/beginners/assets/chapter3/1.png" alt="Geanyアイコン" style="zoom:20%;" />
+<img src="/beginners/assets/chapter3/1.png" alt="Geanyアイコン" />
 
 するとこのようなものが表示されるはずです。これがGeanyの画面です。
 
-<img src="/beginners/assets/chapter3/2.png" alt="Geany画面" style="zoom:50%;" />
+<img src="/beginners/assets/chapter3/2.png" alt="Geany画面" />
 
 ここに下のプログラムをコピーして貼り付けてみてください(中身については今は分からなくて良いです)。
 
@@ -70,7 +70,7 @@ int main(){
 
 このプログラムを保存してみましょう。
 
-<img src="/beginners/assets/chapter3/3.png" alt="保存メニュー" style="zoom:50%;" />
+<img src="/beginners/assets/chapter3/3.png" alt="保存メニュー" />
 
 左上の「ファイル」メニューから「保存」を選ぶと、このような保存画面が表示されるはずです。
 
@@ -78,7 +78,7 @@ int main(){
 
 「.cpp」というのは **拡張子** と言って、「これはC++のプログラムファイルだよ」ということをGeanyとなどのソフトに教えるためのものです。
 
-<img src="/beginners/assets/chapter3/4.png" alt="保存画面" style="zoom:50%;" />
+<img src="/beginners/assets/chapter3/4.png" alt="保存画面" />
 
 
 
@@ -86,13 +86,13 @@ int main(){
 
 プログラムにカラフルな色が付いていますね。これは拡張子のおかげでGeanyによって「このファイルはC++のプログラムを書いたものだ」ということが認識されたからです。(色が付いていない人は、どこかで手順を間違えているので声を掛けてください)。
 
-<img src="/beginners/assets/chapter3/5.png" alt="色がついてる" style="zoom:50%;" />
+<img src="/beginners/assets/chapter3/5.png" alt="色がついてる" />
 
 プログラムを保存できたところで、これを実行してみましょう。
 
 上真ん中のところに茶色い箱のようなアイコンがありますね。まずこれを押してみて下さい。
 
-<img src="/beginners/assets/chapter3/6.png" alt="ビルド" style="zoom:50%;" />
+<img src="/beginners/assets/chapter3/6.png" alt="ビルド" />
 
 何も起こらなかったじゃないか、と思ったかもしれませんが、実は今ボタンを押したときパソコンはものすごい量の仕事をしていました。
 
@@ -108,11 +108,15 @@ int main(){
 
 さっき押したボタンのとなりにある、歯車のボタンを押して下さい。
 
-<img src="/beginners/assets/chapter3/8.png" alt="実行" style="zoom:50%;" />
+<img src="/beginners/assets/chapter3/8.png" alt="実行" />
 
 プログラムを実行することができました!
 
 このプログラムは、「こんにちは!」という文字を画面に出力する、というプログラムだったんですね。
+
+「こんにちは!」の後に (program exited with code: 0) というメッセージが出ていますが、これは「プログラムが正常に終了した」という意味だと思ってもらえれば良いです。
+
+この実行画面はEnterキーを押して閉じることができます。
 
 <img src="/beginners/assets/chapter3/9.png" alt="実行できた"  />
 
