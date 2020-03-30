@@ -5,6 +5,7 @@ date: 2020-03-22
 categories: chapter3
 mathjax: true
 ---
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 # 第3章 - 本格的なプログラムを書いてみよう! (本編)
 
