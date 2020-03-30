@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Chapter3"
+title: "Chapter3-1"
 date: 2020-03-22
 categories: chapter3
 mathjax: true
 ---
 
-# 第3章 - 本格的なプログラムを書いてみよう!
+# 第3章 - 本格的なプログラムを書いてみよう! (準備編)
 
 第2章でみなさんは簡単なプログラムを書き、パソコンに色々な計算をさせるということをしました。
 
