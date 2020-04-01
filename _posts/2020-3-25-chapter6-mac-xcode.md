@@ -11,7 +11,7 @@ mathjax: true
 ### Xcodeのセットアップ
 1. まず、macでC++の開発をするには**Xcode**というアプリケーションを使います。Xcodeは予めインストールされているはずの**App Store**というアプリからダウンロードします。
 
-<img src="/begginers/assets/chapter6/Chapter6_mac_xcode/appstore.png" alt="appstoreの画像" width="30%">
+<img src="/beginners/assets/chapter6/Chapter6_mac_xcode/appstore.png" alt="appstoreの画像" width="30%">
 
 2. 「**xcode**」と左上の検索欄に入力し、Xcodeと書かれたアプリをダウンロードします。
  Xcodeは数GBの容量をとるので気をつけてください。ダウンロードが終わったらそれを開いてください。「External components...」云々みたいなのが現れたらInstallをクリックしてmacにログインするためのパスワードを入力してください。
