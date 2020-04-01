@@ -16,9 +16,9 @@ mathjax: true
 2. 「**xcode**」と左上の検索欄に入力し、Xcodeと書かれたアプリをダウンロードします。
  Xcodeは数GBの容量をとるので気をつけてください。ダウンロードが終わったらそれを開いてください。「External components...」云々みたいなのが現れたらInstallをクリックしてmacにログインするためのパスワードを入力してください。
 
- <img src="/begginers/assets/chapter6/Chapter6_mac_xcode/xcode_appstore_view.png" alt="appstore内のXcodeの画像" width="30%" margin="10px">  
- <img src="/begginers/assets/chapter6/Chapter6_mac_xcode/xcode_first_page.png" alt="Xcodeの最初の画面" width="30%" margin="10px">
- <img src="/begginers/assets/chapter6/Chapter6_mac_xcode/xcode_macos_page.png" alt="Xcodeプロジェクト新規作成の画面" width="30%" margin="10px">
+ <img src="/begginers/assets/chapter6/Chapter6_mac_xcode/xcode_appstore_view.png" alt="appstore内のXcodeの画像" width="29%" margin="10px" style="display: inline;">  
+ <img src="/begginers/assets/chapter6/Chapter6_mac_xcode/xcode_first_page.png" alt="Xcodeの最初の画面" width="35%" margin="10px" style="display: inline;">
+ <img src="/begginers/assets/chapter6/Chapter6_mac_xcode/xcode_macos_page.png" alt="Xcodeプロジェクト新規作成の画面" width="33%" margin="10px" style="display: inline;">
 
 3. すると、上のような画面が開くでしょう（ダークモードをオンにしているかなどで色は少し違うかもしれません）。左下の「**Create a new Xcode project**」をクリックし、上にある「**macOS**」選択して下さい。「**Command Line Tool**」を選択し、右下の「Next」を押します。「Project Name」に好きな名前を入れて、Languageを「**C++**」を選び、Organization Identifierには「**com.〇〇**（好きな英数字）」を入力して下さい。「Finish」をクリックし、このファイルを保存しておく場所を選びます。「Create」をクリックしてプロジェクトの作成は完了です。
 
