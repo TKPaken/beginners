@@ -1,2 +1,13 @@
+#
+# Settings files
+#
+
+.DS_Store
+.ini
+
+#
+# Jekyll
+#
+
 _site
 .jekyll-cache
