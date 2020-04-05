@@ -220,3 +220,12 @@ footer {
     position: absolute;
     right: 12px;
 }
+
+td {
+    border: 1px solid black;
+    padding:6px;
+}
+th{
+    border:1px solid black;
+    padding:6px;
+}
