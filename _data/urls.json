@@ -55,6 +55,11 @@
     "icon": "fas fa-code"
   },
   {
+    "text": "Chapter8",
+    "url": "/category/chapter8",
+    "icon": "fas fa-code"
+  },
+  {
     "text": "Github",
     "url": "https://github.com/TKPaken",
     "icon": "fab fa-github",
