@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "第6章 - 環境構築まとめ"
-permalink : /chapter6
+permalink : /chapter6/index
 mathjax: true
 ---
 
