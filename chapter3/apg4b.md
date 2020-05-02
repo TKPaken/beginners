@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "第3章 - 本格的なプログラムを書いてみよう! (本編)"
-permalink: /chapter3-2
+permalink: /chapter3/apg4b
 mathjax: true
 ---
 

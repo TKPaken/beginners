@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "第2章 - プログラミングをやってみよう！"
-permalink: /chapter2
+permalink: /chapter2/index
 mathjax: true
 ---
 

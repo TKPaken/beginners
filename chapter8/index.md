@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 第8章 - JOI実践演習
-permalink: /chapter8
+permalink: /chapter8/index
 mathjax: true
 ---
 

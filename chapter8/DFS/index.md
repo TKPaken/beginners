@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DFS
-permalink: /chapter8/dfs
+permalink: /chapter8/dfs/index
 mathjax: true
 ---
 

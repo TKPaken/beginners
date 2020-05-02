@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "第7章 - 目指せJOI本選!"
-permalink : /chapter7
+permalink : /chapter7/index
 mathjax: true
 ---
 

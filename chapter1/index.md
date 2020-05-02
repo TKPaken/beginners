@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "第1章 - プログラミングとは？"
-permalink: /chapter1
+permalink: /chapter1/index
 mathjax: true
 ---
 
