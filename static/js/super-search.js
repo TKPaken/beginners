@@ -112,6 +112,9 @@
         searchResultsEl.style.offsetWidth;
 
         var matchingPosts = posts.filter(function (post) {
+            if(typeof post.title === 'object'){
+                return false;
+            }
             if ((post.title + '').toLowerCase().indexOf(currentInputValue) !== -1 || (post.description + '').toLowerCase().indexOf(currentInputValue) !== -1) {
                 return true;
             }
