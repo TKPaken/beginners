@@ -1,8 +1,6 @@
 ---
 layout: page
-title: About
-permalink: /about/
-mathjax: true
+title: Home
 ---
 
 # サイトとパ研のご案内
@@ -19,9 +17,9 @@ mathjax: true
 ゆるくて楽しい部活なので、気軽に来てください。初心者も大歓迎です。
 皆さんの入部をお待ちしています！
 
-ここまで聞いてパ研に興味が出た方は[Contact](https://tkpaken.github.io/beginners/contact/)をご覧ください。
+ここまで聞いてパ研に興味が出た方は[Contact](contact)をご覧ください。
 
-具体的な活動内容は[第0章](https://tkpaken.github.io/beginners/chapter0/2020/03/19/chapter0.html)で説明しています。
+具体的な活動内容は[第0章](chapter0)で説明しています。
 
 <br>
 
@@ -38,41 +36,41 @@ mathjax: true
 ### サイトの目次
 　それぞれの章の大まかな内容を説明します。
 
-#### [・About](https://tkpaken.github.io/beginners/about/)
+#### [・About](./)
 　このページです。サイトとパ研についての大まかな説明をしています。
 
-#### [・Contact](https://tkpaken.github.io/beginners/contact/)
+#### [・Contact](contact)
 　入部の方法が書いてあります。
 
-#### [・第0章 - パ研へようこそ！](https://tkpaken.github.io/beginners/chapter0/2020/03/19/chapter0.html)
+#### [・第0章 - パ研へようこそ！](chapter0)
 　パ研の活動についての、もう少し具体的な説明をしています。
 
-#### [・第1章 - プログラミングとは？](https://tkpaken.github.io/beginners/chapter1/2020/03/20/chapter1.html)
+#### [・第1章 - プログラミングとは？](chapter1)
 　プログラミングとは何か、そこから発展してどういうことができるか例示しています。
 自分がこれからの活動でどんなことをするのか、イメージが湧くでしょう。
 
-#### [・第2章 - プログラミングを体感してみよう！](https://tkpaken.github.io/beginners/chapter2/2020/03/21/chapter2.html)
+#### [・第2章 - プログラミングを体感してみよう！](chapter2)
 　ここから本格的なプログラミング講義が始まります。この章ではプログラムがどういう動きをするのか、
 示されている例を見ながら理解してもらいます。
 この章から技術的な説明が始まるので少し難しいかも知れませんが、じっくり読んでくださいね。
 
-#### [・第3章 - 本格的なプログラムを書いてみよう!](https://tkpaken.github.io/beginners/chapter3/2020/03/22/chapter3-1-geany.html)
+#### [・第3章 - 本格的なプログラムを書いてみよう!](chapter3-1)
 　ここからは、 __あなたが__ プログラミングします。
 準備編と本編に分かれているので、順番に読んでください。
 
-#### [・第4章 - 実力アップに役立つサイト集＋実践演習](https://tkpaken.github.io/beginners/chapter4/2020/03/23/chapter4.html)
+#### [・第4章 - 実力アップに役立つサイト集＋実践演習](chapter4)
 　第3章まででプログラミングの文法を学びました。
 ここではそれを活かし、プログラミングを使って問題を解いてもらいます。
 この章では結構たくさんの課題を出しますが、これを越えれば自分の好きなことをできるのでがんばりましょう。
 
-#### [・第5章 - パ研での今後の活動](https://tkpaken.github.io/beginners/chapter5/2020/03/24/chapter5.html)
+#### [・第5章 - パ研での今後の活動](chapter5)
 　ここまでで基本的なプログラミングができるようになった皆さんに、活動のあり方や内容について説明します。
 ゲームの作り方のヒントなども載っているので、興味があれば積極的にやってみましょう。
 
-#### [・第6章 - 環境構築まとめ](https://tkpaken.github.io/beginners/chapter6/2020/03/25/chapter6.html)
+#### [・第6章 - 環境構築まとめ](chapter6)
 　家でもプログラミングをやりたい！という積極的な部員のために、そのための環境の作り方を解説しています。
 
-#### [・第7章 - 目指せJOI本選!](https://tkpaken.github.io/beginners/chapter7/2020/03/26/chapter7.html)
+#### [・第7章 - 目指せJOI本選!](chapter7)
 　パ研部員が参加している大会であるJOI(日本情報オリンピック)の紹介と、それに向けた練習の進め方を解説しています。
 
 ******

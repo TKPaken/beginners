@@ -5,70 +5,59 @@
     "icon": "fas fa-home"
   },
   {
-    "text": "About",
-    "url": "/about/",
-    "icon": "fas fa-comments"
-  },
-  {
 	  "text": "Contact",
 	  "url": "/contact/",
 	  "icon": "fas fa-user-friends"
   },
   {
     "text": "Chapter0",
-    "url": "/category/chapter0",
-    "icon": "fas fa-code"
+    "url": "/chapter0",
+    "icon": "fas fa-comment"
   },
   {
     "text": "Chapter1",
-    "url": "/category/chapter1",
-    "icon": "fas fa-code"
+    "url": "/chapter1",
+    "icon": "fas fa-terminal"
   },
   {
     "text": "Chapter2",
-    "url": "/category/chapter2",
-    "icon": "fas fa-code"
+    "url": "/chapter2",
+    "icon": "fas fa-play"
   },
   {
     "text": "Chapter3",
-    "url": "/category/chapter3",
-    "icon": "fas fa-code"
+    "url": "/chapter3-1",
+    "icon": "fas fa-pen"
   },
   {
     "text": "Chapter4",
-    "url": "/category/chapter4",
-    "icon": "fas fa-code"
+    "url": "/chapter4",
+    "icon": "fas fa-globe"
   },
   {
     "text": "Chapter5",
-    "url": "/category/chapter5",
-    "icon": "fas fa-code"
+    "url": "/chapter5",
+    "icon": "fas fa-arrow-right"
   },
   {
     "text": "Chapter6",
-    "url": "/category/chapter6",
-    "icon": "fas fa-code"
+    "url": "/chapter6",
+    "icon": "fas fa-laptop"
   },
   {
     "text": "Chapter7",
-    "url": "/category/chapter7",
+    "url": "/chapter7",
     "icon": "fas fa-code"
   },
   {
     "text": "Chapter8",
-    "url": "/category/chapter8",
-    "icon": "fas fa-code"
+    "url": "/chapter8",
+    "icon": "fas fa-laptop-code"
   },
   {
     "text": "Github",
-    "url": "https://github.com/TKPaken",
+    "url": "https://github.com/TKPaken/beginners",
     "icon": "fab fa-github",
     "target":"_blank"
-  },
-  {
-    "text": "XML Feed",
-    "url": "/feed.xml",
-    "icon": "fas fa-rss",
-    "target": "_blank"
   }
 ]

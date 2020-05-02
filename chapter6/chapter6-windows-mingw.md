@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: "Chapter6-Windows(MinGW)"
-date: 2020-03-25 2:00:00
-categories: chapter6
+permalink : /chapter6/windows-mingw
 mathjax: true
 ---
 

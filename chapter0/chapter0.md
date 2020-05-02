@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: "第0章 - パ研へようこそ！"
-date: 2020-03-19
-categories: chapter0
+permalink: /chapter0
 mathjax: true
 ---
 # 第0章 - パ研へようこそ！

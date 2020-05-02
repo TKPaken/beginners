@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: "Chapter6-Windows(Visual Studio)"
-date: 2020-03-25 1:00:00
-categories: chapter6
+permalink : /chapter6/windows-visualstudio
 mathjax: true
 ---
 

@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: "第6章 - 環境構築まとめ"
-date: 2020-03-25 0:00:00
-categories: chapter6
+permalink : /chapter6
 mathjax: true
 ---
 
@@ -17,12 +16,12 @@ PCの環境ごとにページを分けるため該当するページを見てく
 一番メジャーではないでしょうか。2種類の方法を記載します
 
 ### Visual Studio
-[Windowsでの環境構築(Visual Studioの場合)](chapter6-windows-visualstudio)
+[Windowsでの環境構築(Visual Studioの場合)](windows-visualstudio)
 
 Windowsを開発しているMicrosoftから出されている開発環境です。Windows向けの様々なゲームやアプリなどを作るのに向いています。設定が簡単なので初心者向けでもあります。対象:ゲーム班、簡単に設定できるのが良い人
 
 ### MinGW
-[Windowsでの環境構築(MinGWの場合)](chapter6-windows-mingw)
+[Windowsでの環境構築(MinGWの場合)](windows-mingw)
 
 GCCというコンパイラのWindows向けのものです。パ研やAPG4bなどと同じような環境を作ることが出来ます。また、自分の好きなエディタを使うことも出来て、軽量に動かすことが出来ます。対象:競技プログラミングに打ち込みたい人
 
@@ -30,12 +29,12 @@ GCCというコンパイラのWindows向けのものです。パ研やAPG4bな�
 このOSを使っている人もそれなりにいるのではないでしょうか。こちらも2種類の方法を記載します。
 
 ### XCode
-[Macでの環境構築(XCodeの場合)](chapter6-mac-xcode)
+[Macでの環境構築(XCodeの場合)](mac-xcode)
 
 MacOSをリリースしたAppleより出されている開発環境です。WindowsでいうVisual Studioのようなもので、Macやiphone向けの様々なゲームやアプリを作るのに向いています。設定が簡単なので初心者向けでもあります。対象:ゲーム班、簡単に設定できるのが良い人
 
 ### GCC
-[Macでの環境構築(GCC＋VSCodeの場合)](chapter6-mac-gcc)
+[Macでの環境構築(GCC＋VSCodeの場合)](mac-gcc)
 
 最強のエディタとも言われるVSCodeと、情報オリンピックでも使われるコンパイラ、GCCを使って開発をするための環境構築です。他の言語への拡張も簡単です。少し面倒ですが、一度できてしまえばモダンなエディタで一流プログラマの気分になれるかもしれません（？）対象:いろいろな言語が使いたい人、パソコンにある程度詳しい人
 
@@ -45,11 +44,11 @@ JOIの本選などではこのOSが使われています。インストールは
 ### VirtualBoxのインストール
 このソフト上でUbuntuを動かします
 
-[VirtualBoxのインストール(Windows)](chapter6-virtualbox-windows)
+[VirtualBoxのインストール(Windows)](virtualbox-windows)
 
-[VirtualBoxのインストール(Mac)](chapter6-virtualbox-mac)
+[VirtualBoxのインストール(Mac)](virtualbox-mac)
 
 ### Ubuntuの仮想環境の作成
 実際にUbuntuを動かす環境を作成します
 
-[Ubuntuの仮想環境の作成](chapter6-ubuntu-virtualmachine)
+[Ubuntuの仮想環境の作成](ubuntu-virtualmachine)

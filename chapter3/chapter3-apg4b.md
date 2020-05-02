@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: "第3章 - 本格的なプログラムを書いてみよう! (本編)"
-date: 2020-03-22
-categories: chapter3
+permalink: /chapter3-2
 mathjax: true
 ---
 
