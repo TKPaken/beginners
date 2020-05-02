@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: "第5章 - パ研での今後の活動"
-date: 2020-03-24
-categories: chapter5
+permalink: /chapter5
 mathjax: true
 ---
 

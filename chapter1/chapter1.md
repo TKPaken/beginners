@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: "第1章 - プログラミングとは？"
-date: 2020-03-20
-categories: chapter1
+permalink: /chapter1
 mathjax: true
 ---
 

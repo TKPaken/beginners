@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: "第7章 - 目指せJOI本選!"
-date: 2020-03-26
-categories: chapter7
+permalink : /chapter7
 mathjax: true
 ---
 

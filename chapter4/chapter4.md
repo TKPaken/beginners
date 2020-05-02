@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: "第4章 - 実力アップに役立つサイト集＋実践演習"
-date: 2020-03-23
-categories: chapter4
+permalink: /chapter4
 mathjax: true
 ---
 # 第4章 - 実力アップに役立つサイト集＋実践演習
