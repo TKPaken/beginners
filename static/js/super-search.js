@@ -112,6 +112,9 @@
         searchResultsEl.style.offsetWidth;
 
         var matchingPosts = posts.filter(function (post) {
+            if(typeof post.title === 'object'){
+                return false;
+            }
             if ((post.title + '').toLowerCase().indexOf(currentInputValue) !== -1 || (post.description + '').toLowerCase().indexOf(currentInputValue) !== -1) {
                 return true;
             }
@@ -123,8 +126,7 @@
         if (matchingPosts.length && currentResultHash !== lastSearchResultHash) {
             searchResultsEl.classList.remove('is-hidden');
             searchResultsEl.innerHTML = matchingPosts.map(function (post) {
-                d = new Date(post.pubDate);
-                return '<li><a href="' + post.link + '">' + post.title + '<span class="search__result-date">' + d.toUTCString().replace(/.*(\d{2})\s+(\w{3})\s+(\d{4}).*/,'$2 $1, $3') + '</span></a></li>';
+                return '<li><a href="' + post.link + '">' + post.title + '<span class="search__result-date">' + '</span></a></li>';
             }).join('');
         }
         lastSearchResultHash = currentResultHash;
