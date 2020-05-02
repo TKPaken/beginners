@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: "Chapter6-Mac(GCC+VSCode)"
-date: 2020-03-25 4:00:00
-categories: chapter6
+permalink : /chapter6/mac-gcc
 mathjax: true
 ---
 

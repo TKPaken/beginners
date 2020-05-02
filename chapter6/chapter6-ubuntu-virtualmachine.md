@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: "Chapter6-Ubuntu"
-date: 2020-03-25 7:00:00
-categories: chapter6
+permalink : /chapter6/ubuntu-virtualmachine
 mathjax: true
 ---
 

@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: "Chapter6-VirtualBox(Windows)"
-date: 2020-03-25 5:00:00
-categories: chapter6
+permalink : /chapter6/virtualbox-windows
 mathjax: true
 ---
 

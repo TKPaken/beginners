@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: "Chapter6-VirtualBox(MacOS)"
-date: 2020-03-25 6:00:00
-categories: chapter6
+permalink : /chapter6/virtualbox-mac
 mathjax: true
 ---
 
