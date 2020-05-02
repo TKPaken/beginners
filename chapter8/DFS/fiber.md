@@ -5,4 +5,4 @@ permalink: /chapter8/dfs/fiber
 mathjax: true
 ---
 
-こんな感じ?
+# 解説

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "第3章 - 本格的なプログラムを書いてみよう! (準備編)"
-permalink: /chapter3-1
+permalink: /chapter3/index
 mathjax: true
 ---
 
@@ -140,4 +140,4 @@ int main(){
 
 もし疑問に思ったことがあったり、どこかでうまくいかなかったりしたら気軽に質問をしてくださいね。
 
-# ここまでできたら、[本編](chapter3-2) に進んでみましょう！
+# ここまでできたら、[本編](./apg4b) に進んでみましょう！

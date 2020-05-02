@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "第4章 - 実力アップに役立つサイト集＋実践演習"
-permalink: /chapter4
+permalink: /chapter4/index
 mathjax: true
 ---
 # 第4章 - 実力アップに役立つサイト集＋実践演習
