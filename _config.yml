@@ -5,7 +5,7 @@ logo: /beginners/static/img/avatar.png
 github: https://github.com/TKPaken
 about: for beginners
 
-baseurl: "/"
+baseurl: "/beginners"
 url: "https://TKPaken.github.io"
 
 allowsearch: true
