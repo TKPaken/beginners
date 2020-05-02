@@ -11,3 +11,6 @@ mathjax: true
 リンクを貼る
 
 dateの時間を若干ずらすと時系列順になって嬉しいです
+
+[リンク](/beginners/joi-editorial/)
+
