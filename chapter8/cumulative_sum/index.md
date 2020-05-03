@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 累積和
-permalink: /chapter8/comulative_sum
+permalink: /chapter8/cumulative_sum
 mathjax: true
 ---
 
