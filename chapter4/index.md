@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "第4章 - 実力アップに役立つサイト集＋実践演習"
 date: 2020-03-23
 categories: chapter4
@@ -38,13 +38,13 @@ AtCoderはそのような問題を出してくれるサイトで、あなたは�
 　話をAtCoderでの学習方法に戻します。
 AtCoderでは、コンテストで過去に出された問題にいつでもチャレンジすることができます。百聞は一見にしかず、ここで一つ簡単な過去問を解いてみましょう。下のリンクを開いてみてください。
 
-__<a href="https://atcoder.jp/contests/abs/tasks/abc086_a" target="_blank">https://atcoder.jp/contests/abs/tasks/abc086_a</a>__
+__<a href="https://atcoder.jp/contests/abc157/tasks/abc157_a" target="_blank">https://atcoder.jp/contests/abc157/tasks/abc157_a</a>__
 
 下の画像のようなページが表示されたと思います。
 
 ******
 
-![AtCoder Beginners Selection 1問目](/beginners/assets/chapter4/abs-1.png)
+![AtCoder Beginners Selection 1問目](/beginners/assets/chapter4/first_task.png)
 
 　大体の部分はAPG4bで見慣れていると思いますが、「配点」のところだけよくわからないと思うので説明しておきます。
 一口に「プログラミングを用いて解く問題」といっても、難易度は様々です。受験でも、誰でも解けるような問題から、上位者でも苦しむような問題まで、幅広く存在したと思います。それと同じことです。
@@ -83,6 +83,8 @@ ttps://docs.google.com/spreadsheets/d/1rfHCDN08e0nnyQ4NYV_faqN9C5ABIpec6pPdXmX8Y
 
 ②問題は一番上が簡単で、下に行くにつれて難しくなるようになっているので、上から順に問題を解いていきましょう。
 問題が解けたらその問題のマスに日付を書き、リスト左上の指示に従ってマスに色をつけてください。解けなかった場合も、取り組んだ証としてマスを黄色くしておきましょう。
+
+あなたが先程解いた練習問題はこの表の一番上の問題なので、さっそく日付を書いておいてください。
 
 ③頑張って考えてもわからない問題があれば積極的に先輩に質問しましょう。
 
