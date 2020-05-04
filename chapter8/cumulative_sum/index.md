@@ -25,8 +25,8 @@ AtCoder,JOI共に基礎知識として問われる事が多いです。
 
 また、自力で解けた場合でも解いた後、必ず解説を読むようにしましょう！<br><br>
 
-## 2-1. 必ず解こう！
 
-| 問題名 | 難易度 | 問題リンク | 解説リンク |
-| :----: | :----: | :----: | :----: |
-| aaa | aaa | aaa| aaa |
+| 問題 | 難易度 | 解説リンク |
+| :----: | :----: | :----: |
+| [鉄道旅行](https://atcoder.jp/contests/joi2015ho/tasks/joi2015ho_a) | 5 | [解説](https://kaage.hatenablog.com/entry/2020/05/03/224811)|
+| [Mall](https://atcoder.jp/contests/joisc2007/tasks/joisc2007_mall) | 5 | [解説](https://kaage.hatenablog.com/entry/2020/05/03/224558) |
