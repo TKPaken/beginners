@@ -67,9 +67,11 @@ AtCoderにおいては、原則100点刻みで各問題に点数がつけられ�
 
 ### この章の必修課題
 
-　先程の問題が解けたら、他の問題も解いて練習してみましょう。といってもどの問題を解けばいいのかわからないと思うので、練習にいい問題集を紹介します。下のリンクを開いてください。
+　先程の問題が解けたら、他の問題も解いて練習してみましょう。といってもどの問題を解けばいいのかわからないと思うので、練習にいい問題集を紹介します。
 
-__<a href="https://docs.google.com/spreadsheets/d/1rfHCDN08e0nnyQ4NYV_faqN9C5ABIpec6pPdXmX8Y94/edit?usp=sharing" target="_blank">解いてほしい問題のリスト</a>__
+下のリンクをコピーして検索欄に貼り付けたあと、先頭に"h"を1文字追加して、開いて下さい。
+
+ttps://docs.google.com/spreadsheets/d/1rfHCDN08e0nnyQ4NYV_faqN9C5ABIpec6pPdXmX8Y94/edit?usp=sharing
 
 あなた達に解いてほしい問題を選び、リストにしました。かなりの量に圧倒されるかも知れません。
 
