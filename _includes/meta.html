@@ -36,7 +36,7 @@
         {% if page.image %}
           <meta content="{{ site.url }}/static/img/posts/{{ page.image }}" property="og:image">
         {% else %}
-          <meta content="{{ site.url }}/static/img/avatar.png" property="og:image">
+          <meta content="https://tkpaken.github.io/beginners/static/img/avatar.png" property="og:image">
         {% endif %}
         {% if page.categories %}
           {% for category in page.categories limit:1 %}
@@ -66,4 +66,6 @@
         {% endif %}
         {% if page.header-img %}
           <meta name="twitter:image:src" content="{{ site.url }}/{{ page.header-img }}">
+        {% else %}
+          <meta name="twitter:image"content="https://tkpaken.github.io/beginners/static/img/avatar.png">
         {% endif %}
