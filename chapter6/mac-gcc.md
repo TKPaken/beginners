@@ -59,8 +59,8 @@ brew install gcc
 次のコマンドを打ってください。
 
 ```zsh
-ln /usr/local/bin/gcc-9 /usr/local/bin/gcc
-ln /usr/local/bin/g++-9 /usr/local/bin/g++
+ln -s /usr/local/bin/gcc-9 /usr/local/bin/gcc
+ln -s /usr/local/bin/g++-9 /usr/local/bin/g++
 ```
 
 次に、
