@@ -1,9 +1,9 @@
 title: Paken for beginners
-description: Paken Web 
+description: 筑駒パ研の新入生用サイト
 author: Paken
 logo: /beginners/static/img/avatar.png
 github: https://github.com/TKPaken
-about: for beginners
+about: 筑駒パ研の新入生用サイト
 
 baseurl: "/beginners"
 url: "https://TKPaken.github.io"
