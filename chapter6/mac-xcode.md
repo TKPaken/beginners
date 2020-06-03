@@ -31,7 +31,7 @@ ___
 
 また、`bits/stdc++.h`はそもそもGCC環境の拡張機能であり、Clang環境で使うこと自体推奨はされません。以下の作業を行うと、コンパイラの環境を破壊することになるということには注意しておいてください。
 
-コンパイラの環境を破壊せずにGCCを使いたい場合には、XCodeはやめて[GCCとVSCodeを使った環境構築方法](beginners/chapter6/2020/03/25/chapter6-mac-gcc.html)を見ることをお勧めします。
+コンパイラの環境を破壊せずにGCCを使いたい場合には、XCodeはやめて[GCCとVSCodeを使った環境構築方法](https://tkpaken.github.io/beginners/chapter6/mac-gcc)を見ることをお勧めします。
 
 基本的なやり方は[このqiita記事](https://qiita.com/Atsu30/items/6a4c4c070dd76a236fdc)に書いてあります。（***これは管理者権限のあるアカウントでしかできません***）
 
