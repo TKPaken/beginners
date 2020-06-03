@@ -8,7 +8,7 @@ mathjax: true
 # Macでの環境構築(XCodeの場合)
 
 ### Xcodeのセットアップ
-※ここではXCodeを使った環境構築を説明しますが、XCodeは非常に多くのストレージ領域を食います。これが嫌な人は、[GCCとVSCodeを使った環境構築方法](beginners/chapter6/2020/03/25/chapter6-mac-gcc.html)を見てください。
+※ここではXCodeを使った環境構築を説明しますが、XCodeは非常に多くのストレージ領域を食います。これが嫌な人は、[GCCとVSCodeを使った環境構築方法](https://tkpaken.github.io/beginners/chapter6/mac-gcc)を見てください。
 
 1. ここでは**Xcode**というアプリケーションを使います。Xcodeは予めインストールされているはずの**App Store**というアプリからダウンロードします。
 
