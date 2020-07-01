@@ -59,5 +59,10 @@
     "url": "https://github.com/TKPaken/beginners",
     "icon": "fab fa-github",
     "target":"_blank"
+  },
+  {
+    "text":"Others",
+    "url":"/others",
+    "icon":"fa fa-paperclip"
   }
 ]
