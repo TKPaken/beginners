@@ -10,3 +10,10 @@
 #
 
 site
+
+#
+# editors
+#
+
+.idea
+.vscode
