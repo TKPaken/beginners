@@ -1,10 +1,3 @@
----
-layout: page
-title: "Chapter6-Mac(GCC+VSCode)"
-permalink : /chapter6/mac-gcc
-mathjax: true
----
-
 # Macでの環境構築(GCC+VSCodeの場合)
 
 基本的なやり方は僕が書いた[このQiita記事](https://qiita.com/ageprocpp/items/d5111699f9e8a0d88c89)に書いてあります。

@@ -1,10 +1,3 @@
----
-layout: page
-title: "第7章 - 目指せJOI本選!"
-permalink : /chapter7/index
-mathjax: true
----
-
 # 第7章 - 目指せJOI本選!
 
 APG4bを終え、4章の演習問題を全て解いたみなさんにはもうプログラムを書くのに必要な最低限の知識が身についています。おめでとうございます!

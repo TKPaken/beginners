@@ -1,10 +1,3 @@
----
-layout: page
-title: "Chapter6-Mac(XCode)"
-permalink : /chapter6/mac-xcode
-mathjax: true
----
-
 # Macでの環境構築(XCodeの場合)
 
 ### Xcodeのセットアップ

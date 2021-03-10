@@ -1,10 +1,3 @@
----
-layout: page
-title: "Chapter6-Windows(MinGW)"
-permalink : /chapter6/windows-mingw
-mathjax: true
----
-
 # Windowsでの環境構築(MinGWの場合)
 
 ## MinGWの設定

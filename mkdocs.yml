@@ -66,27 +66,20 @@ nav:
   - Home: index.md
   - Contact: contact.md
   - Tutorial:
-    - chapter0: chapter0/index.md
-    - chapter1: chapter1/index.md
-    - chapter2: chapter2/index.md
-    - chapter3-1: chapter3/geany.md
-    - chapter3-2: chapter3/apg4b.md
-    - chapter4: chapter4/index.md
-    - chapter5: chapter5/index.md
-    - chapter6:
-      - overview: chapter6/index.md
-      - windows-vs: chapter6/windows-visualstudio.md
-      - windows-mingw: chapter6/windows-mingw.md
-      - mac-xcode: chapter6/mac-xcode.md
-      - mac-gcc: chapter6/mac-gcc.md
+    - 第0章 - パ研へようこそ！: chapter0/index.md
+    - 第1章 - プログラミングとは？: chapter1/index.md
+    - 第2章 - プログラミングを体感してみよう！: chapter2/index.md
+    - 第3章 - 本格的なプログラムを書いてみよう! (準備編): chapter3/geany.md
+    - 第3章 - 本格的なプログラムを書いてみよう! (本編): chapter3/apg4b.md
+    - 第4章 - 実力アップに役立つサイト集＋実践演習: chapter4/index.md
+    - 第5章 - パ研での今後の活動: chapter5/index.md
+    - 第6章:
+      - 第6章 - 環境構築まとめ: chapter6/index.md
+      - 第6章 - Windows(Visual Studio): chapter6/windows-visualstudio.md
+      - 第6章 - Windows(MinGW): chapter6/windows-mingw.md
+      - 第6章 - Mac(XCode): chapter6/mac-xcode.md
+      - 第6章 - Mac(GCC+VSCode): chapter6/mac-gcc.md
       - win-vm: chapter6/virtualbox-windows.md
       - mac-vm: chapter6/virtualbox-mac.md
       - ubuntu-vm: chapter6/ubuntu-virtualmachine.md
-    - chapter7: chapter7/index.md
-    - chapter8:
-      - overview: chapter8/index.md
-      - 累積和 : chapter8/cumulative_sum/index.md
-      - DFS:
-        - overview: chapter8/DFS/index.md
-        - fiber: chapter8/DFS/fiber.md
-      - DP1: chapter8/DP1/index.md
+    - 第7章 - 目指せJOI本選!: chapter7/index.md

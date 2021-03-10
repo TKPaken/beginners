@@ -1,11 +1,3 @@
----
-layout: page
-title: Contact
-permalink: /contact/
-mathjax: true
----
-
-
 # (体験)入部について
 
 以下のフォームに必要事項を記入して送ることで体験入部ができます。

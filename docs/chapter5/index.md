@@ -1,10 +1,3 @@
----
-layout: page
-title: "第5章 - パ研での今後の活動"
-permalink: /chapter5/index
-mathjax: true
----
-
 # はじめに
 1章を書いた人です。4章ぶりですね。
 

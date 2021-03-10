@@ -1,10 +1,3 @@
----
-layout: page
-title: "Chapter6-Windows(Visual Studio)"
-permalink : /chapter6/windows-visualstudio
-mathjax: true
----
-
 # Windowsでの環境構築(Visual Studioの場合)
 
 ## Visual Studioのインストール
