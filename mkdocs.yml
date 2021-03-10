@@ -1,0 +1,85 @@
+site_name: Paken for beginners
+site_url: https://tkpaken.github.io/beginners/
+repo_url: https://github.com/TKPaken/beginners/
+repo_name: TKPaken/beginners
+site_author: 筑駒パ研
+site_description: >-
+  筑駒パ研の新入生用サイト
+theme:
+  name: material
+  custom_dir: overrides
+  language: ja
+  favicon: assets/avatar.png
+  features:
+    - navigation.tabs
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/TKPaken/beginners
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/tk_paken
+
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Contact: contact.md
+  - Tutorial:
+    - 第0章 - パ研へようこそ！: chapter0/index.md
+    - 第1章 - プログラミングとは？: chapter1/index.md
+    - 第2章 - プログラミングを体感してみよう！: chapter2/index.md
+    - 第3章 - 本格的なプログラムを書いてみよう! (準備編): chapter3/geany.md
+    - 第3章 - 本格的なプログラムを書いてみよう! (本編): chapter3/apg4b.md
+    - 第4章 - 実力アップに役立つサイト集＋実践演習: chapter4/index.md
+    - 第5章 - パ研での今後の活動: chapter5/index.md
+    - 第6章:
+      - 第6章 - 環境構築まとめ: chapter6/index.md
+      - 第6章 - Windows(Visual Studio): chapter6/windows-visualstudio.md
+      - 第6章 - Windows(MinGW): chapter6/windows-mingw.md
+      - 第6章 - Mac(XCode): chapter6/mac-xcode.md
+      - 第6章 - Mac(GCC+VSCode): chapter6/mac-gcc.md
+      - win-vm: chapter6/virtualbox-windows.md
+      - mac-vm: chapter6/virtualbox-mac.md
+      - ubuntu-vm: chapter6/ubuntu-virtualmachine.md
+    - 第7章 - 目指せJOI本選!: chapter7/index.md
