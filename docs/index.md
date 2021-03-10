@@ -75,3 +75,6 @@
 
 　各章、難しい部分があります。よくわからなくなったら、先輩に積極的に質問してください。
 それではいいパ研ライフを！
+
+!!! info
+    <div class="quote">当サイトでは、Googleによるアクセス解析ツール「Googleアナリティクス」を使用しています。このGoogleアナリティクスはデータの収集のためにCookieを使用しています。このデータは匿名で収集されており、個人を特定するものではありません。<p></p><p>この機能はCookieを無効にすることで収集を拒否することが出来ますので、お使いのブラウザの設定をご確認ください。この規約に関しての詳細は<a href="https://marketingplatform.google.com/about/analytics/terms/jp/" rel="noopener noreferrer" target="_blank" class="external ext_icon">Googleアナリティクスサービス利用規約</a>のページや<a href="https://policies.google.com/technologies/ads?hl=ja" rel="noopener noreferrer" target="_blank" class="external ext_icon">Googleポリシーと規約</a>ページをご覧ください。</p></div>
