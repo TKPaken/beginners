@@ -1,1 +1,19 @@
+#
+# Settings files
+#
+
+.DS_Store
+.ini
+
+#
+# mkdocs-material
+#
+
 site
+
+#
+# editors
+#
+
+.idea
+.vscode
