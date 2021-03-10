@@ -1,1 +1,1 @@
-https://TKPaken.github.io/beginners
+https://tkpaken.github.io/beginners
