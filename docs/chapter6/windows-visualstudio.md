@@ -31,16 +31,16 @@ Visual Studioの最も重要な機能の一つが、デバッグです。
 デバッグの基本的な方法を説明します。
 まずは、ソリューション構成を"Debug"に設定します。バグがないとわかっているときは"Release"にするといいでしょう。
 
-<img src="./Chapter6_Windows_VisualStudio/solutionConfiguration.png" alt="ソリューション構成をDebugにする" width="80%" />
+<img src="../Chapter6_Windows_VisualStudio/solutionConfiguration.png" alt="ソリューション構成をDebugにする" width="80%" />
 
 次に、コードの中で実行途中に"ブレークポイント"を設定します。
 次のように、行の左側をクリックすると設定できます。
 
-<img src="./Chapter6_Windows_VisualStudio/breakpoint.png" alt="ブレークポイント" width="80%" />
+<img src="../Chapter6_Windows_VisualStudio/breakpoint.png" alt="ブレークポイント" width="80%" />
 
 このまま実行すると、それぞれのブレークポイントで実行が止まります。
 そこで、次のように変数の値を確認することができます。
 
-<img src="./Chapter6_Windows_VisualStudio/debugging.png" alt="変数名の確認" width="80%" />
+<img src="../Chapter6_Windows_VisualStudio/debugging.png" alt="変数名の確認" width="80%" />
 
 このように、変数の値を確認するなどの操作を活用して、バグの発見を容易にしましょう。

@@ -10,7 +10,7 @@
 Windowsのマークとその隣に**mingw-get-setup.exe**と書かれた場所 があるはずなのでWindowsのマークのほうをクリックします。  
 そうするとインストーラがダウンロードされるのでダウンロードが完了したら開いてください。開くとこのような画面が表示されます。
 
-<img src="./Chapter6_Windows_MinGW/MinGW_Installer.png" alt="MinGWのインストーラー" width="80%">
+<img src="../Chapter6_Windows_MinGW/MinGW_Installer.png" alt="MinGWのインストーラー" width="80%">
 
 この画面が表示されたら`Install`をクリックします。次の画面ではインストール場所の設定などが出ますがデフォルトのまま`Continue`を押してください。そうするとダウンロードが開始されます。  
 しばらくすると完了するので`Continue`を押すと、このような画面が出ます。
@@ -23,7 +23,7 @@ Windowsのマークとその隣に**mingw-get-setup.exe**と書かれた場所 �
 ### 環境変数への登録
 次に、MinGWを使うための設定をします。タスク バーの検索窓から`環境変数`と調べ、"システム環境変数の設定"というものを開き、環境変数と書かれたボタンを押します。このような画面が開かれます。
 
-<img src="./Chapter6_Windows_MinGW/environment.png" alt="環境変数を設定" width="80%">
+<img src="../Chapter6_Windows_MinGW/environment.png" alt="環境変数を設定" width="80%">
 
 "システム環境変数"の中に"Path"というものがある(無ければ新規作成を押して変数名に`Path`と入力してOKを押してください。作成されます。)のでそれを開いてください。  
 大量に文字の集まりが出ると思いますが無視して、新規ボタンを押してください。押したら入力欄が出るため、`C:\MinGW\bin`と入力し、OKを押してください。残りの開かれたウィンドウもOKを押してください。
