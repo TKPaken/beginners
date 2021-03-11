@@ -15,7 +15,7 @@ Windowsのマークとその隣に**mingw-get-setup.exe**と書かれた場所 �
 この画面が表示されたら`Install`をクリックします。次の画面ではインストール場所の設定などが出ますがデフォルトのまま`Continue`を押してください。そうするとダウンロードが開始されます。  
 しばらくすると完了するので`Continue`を押すと、このような画面が出ます。
 
-<img src="./Chapter6_Windows_MinGW/MinGW_Installation_Manager.png" alt="MinGWのパッケージ管理画面" width="80%">
+<img src="../Chapter6_Windows_MinGW/MinGW_Installation_Manager.png" alt="MinGWのパッケージ管理画面" width="80%">
 
 この画面がでたら、**mingw32-base-bin**と**mingw32-gcc-g++-bin**の2つの左側にあるチェックボックスをクリックし、`Mark for Installation`をクリックしてください。次に左上の"Installation"から`Apply Changes`をクリックして、その後でてきた画面で`Apply`をクリックしてください。  
 こうするとインストールが開始され、しばらくすると完了されるので`Close`を押し、元の画面も消してください。
