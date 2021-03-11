@@ -66,15 +66,15 @@ nav:
   - Home: index.md
   - Contact: contact.md
   - Tutorial:
-    - 第0章 - パ研へようこそ！: chapter0/index.md
-    - 第1章 - プログラミングとは？: chapter1/index.md
-    - 第2章 - プログラミングを体感してみよう！: chapter2/index.md
-    - 第3章:
+    - 第0章 - パ研へようこそ!: chapter0/index.md
+    - 第1章 - プログラミングとは?: chapter1/index.md
+    - 第2章 - プログラミングを体感してみよう!: chapter2/index.md
+    - 第3章 - 本格的なプログラムを書いてみよう!:
       - 本格的なプログラムを書いてみよう! (準備編): chapter3/geany.md
       - 本格的なプログラムを書いてみよう! (本編): chapter3/apg4b.md
     - 第4章 - 実力アップに役立つサイト集＋実践演習: chapter4/index.md
     - 第5章 - パ研での今後の活動: chapter5/index.md
-    - 第6章:
+    - 第6章 - プログラミング環境を構築しよう!:
       - 環境構築まとめ: chapter6/index.md
       - Windows(Visual Studio): chapter6/windows-visualstudio.md
       - Windows(MinGW): chapter6/windows-mingw.md
