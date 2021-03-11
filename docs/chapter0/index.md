@@ -1,4 +1,4 @@
-# 第0章 - パ研へようこそ！
+# 第0章 - パ研へようこそ!
 
 <img src="./computer_programming_man.png" width="30%" alt="部員の様子" align="right">
 
