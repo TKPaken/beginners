@@ -5,12 +5,14 @@
 
 1. ここでは**Xcode**というアプリケーションを使います。Xcodeは予めインストールされているはずの**App Store**というアプリからダウンロードします。
 
-<img src="../Chapter6_mac_xcode/appstore.png" alt="appstoreの画像" width="30%">
+<img src="./Chapter6_mac_xcode/appstore.png" alt="appstoreの画像" width="30%">
 
 2. 「**xcode**」と左上の検索欄に入力し、Xcodeと書かれたアプリをダウンロードします。
  Xcodeは数GBの容量をとるので気をつけてください。ダウンロードが終わったらそれを開いてください。「External components...」云々みたいなのが現れたらInstallをクリックしてmacにログインするためのパスワードを入力してください。
 
- <img src="../Chapter6_mac_xcode/xcode_appstore_view.png" alt="appstore内のXcodeの画像" width="29%" margin="10px" style="display: inline;"><img src="../Chapter6_mac_xcode/xcode_first_page.png" alt="Xcodeの最初の画面" width="35%" margin="10px" style="display: inline;"><img src="../Chapter6_mac_xcode/xcode_macos_page.png" alt="Xcodeプロジェクト新規作成の画面" width="33%" margin="10px" style="display: inline;">
+<img src="./Chapter6_mac_xcode/xcode_appstore_view.png" alt="appstore内のXcodeの画像" width="29%" margin="10px" style="display: inline;">
+<img src="./Chapter6_mac_xcode/xcode_first_page.png" alt="Xcodeの最初の画面" width="35%" margin="10px" style="display: inline;">
+<img src="./Chapter6_mac_xcode/xcode_macos_page.png" alt="Xcodeプロジェクト新規作成の画面" width="33%" margin="10px" style="display: inline;">
 
 3. すると、上のような画面が開くでしょう（ダークモードをオンにしているなどで、色は少し違うかもしれません）。左下の「**Create a new Xcode project**」をクリックし、上にある「**macOS**」を選択して下さい。「**Command Line Tool**」を選択し、右下の「Next」を押します。「Project Name」に好きな名前を入れて、Languageを「**C++**」を選び、Organization Identifierには「**com.〇〇**（好きな英数字）」を入力して下さい。「Finish」をクリックし、このファイルを保存しておく場所を選びます。「Create」をクリックしてプロジェクトの作成は完了です。
 
@@ -18,7 +20,7 @@
 
 ___
 
-### #include<bits/stdc++/h>を使いたい！
+### \#include <bits/stdc++.h\>を使いたい！
 
 これから先は、`bits/stdc++.h`をどうやって使うかについて説明します。Xcodeでこれを使えるようにするには少々面倒くさいので、bits/stdc++.hが使えなくてもいいという人はやらなくても大丈夫です。
 
@@ -30,7 +32,7 @@ ___
 
 それではこのqiita記事が何をしているのか解説していきます。
 
-#include<bits/stdc++.h>は、「bits」というディレクトリ（ファイルの置き場）の中の「stdc++.h」というファイルを読み込むという意味です。しかし、Xcode(Clang)にはそれが用意されていないのでそれを使うことができません。なのでまずstdc++.hというファイルを[ここ](https://gist.github.com/reza-ryte-club/97c39f35dab0c45a5d924dd9e50c445f)からダウンロードします。「**Download ZIP**」をクリックしてダウンロードし、**解凍してください**（ファイルを開けば解凍されたファイルが**新たに**作成されます）。
+\#include <bits/stdc++.h\>は、「bits」というディレクトリ（ファイルの置き場）の中の「stdc++.h」というファイルを読み込むという意味です。しかし、Xcode(Clang)にはそれが用意されていないのでそれを使うことができません。なのでまずstdc++.hというファイルを[ここ](https://gist.github.com/reza-ryte-club/97c39f35dab0c45a5d924dd9e50c445f)からダウンロードします。「**Download ZIP**」をクリックしてダウンロードし、**解凍してください**（ファイルを開けば解凍されたファイルが**新たに**作成されます）。
 
 次にXcodeのなかに「bits」というディレクトリを作ります。これを作るにはターミナルというアプリケーションを使います。ターミナルを開いて
 
