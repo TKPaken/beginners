@@ -2,9 +2,9 @@
 
 以下のフォームに必要事項を記入して送ることで体験入部ができます。
 
-<a href="https://forms.gle/hh871Fd7aaXkt6vy6"><font size="5">フォームのリンク</font></a>
+<a href="https://forms.gle/HNpDqazYN98NL4ieA" target="_blank"><font size="5">フォームのリンク</font></a>
 
-学校から配布されている `@tsukukoma-gafe.org` のアカウントでサインインした後、これに回答してください。
+<!--- 学校から配布されている `@tsukukoma-gafe.org` のアカウントでサインインした後、これに回答してください。 --->
 
 数時間〜1日程度で、部員から詳細な説明と先輩に質問などができるチャットへのリンクが届きます。
 
