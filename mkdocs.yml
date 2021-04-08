@@ -68,7 +68,6 @@ plugins:
 
 nav:
   - Home: index.md
-  - Home(new): index2.md
   - Contact: contact.md
   - 競プロ: 
     - 競技プログラミング班の紹介: CP/index.md
