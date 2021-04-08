@@ -69,27 +69,10 @@ plugins:
 nav:
   - Home: index.md
   - Contact: contact.md
-  - 競プロ:
-    - 第0章 - パ研へようこそ！: CP/chapter0/index.md
-    - 第1章 - プログラミングとは？: CP/chapter1/index.md
-    - 第2章 - プログラミングを体感してみよう！: CP/chapter2/index.md
-    - 第3章 - 本格的なプログラムを書いてみよう！:
-      - 本格的なプログラムを書いてみよう！ (準備編): CP/chapter3/geany.md
-      - 本格的なプログラムを書いてみよう！ (本編): CP/chapter3/apg4b.md
-    - 第4章 - 実力アップに役立つサイト集＋実践演習: CP/chapter4/index.md
-    - 第5章 - パ研での今後の活動: CP/chapter5/index.md
-    - 第6章 - プログラミング環境を構築しよう！:
-      - 環境構築まとめ: CP/chapter6/index.md
-      - Windows(Visual Studio): CP/chapter6/windows-visualstudio.md
-      - Windows(MinGW): CP/chapter6/windows-mingw.md
-      - Mac(XCode): CP/chapter6/mac-xcode.md
-      - Mac(GCC+VSCode): CP/chapter6/mac-gcc.md
-      - Windows-VM: CP/chapter6/virtualbox-windows.md
-      - Mac-VM: CP/chapter6/virtualbox-mac.md
-      - Ubuntu-VM: CP/chapter6/ubuntu-virtualmachine.md
-    - 第7章 - 目指せJOI本選！: CP/chapter7/index.md
+  - 競プロ: 
+    - 競技プログラミング班の紹介: CP/index.md
   - CTF:
-    - overview: CTF/index.md
+    - CTF 班の紹介: CTF/index.md
   - 自作 OS:
     - overview: OS/index.md
   - Web:
