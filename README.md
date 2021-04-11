@@ -1,4 +1,4 @@
-https://tkpaken.github.io/beginners
+https://tkpaken.github.io/introduction
 
 
 Install Material for MkDocs

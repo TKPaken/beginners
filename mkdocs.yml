@@ -1,7 +1,7 @@
-site_name: Paken for beginners
-site_url: https://tkpaken.github.io/beginners/
-repo_url: https://github.com/TKPaken/beginners/
-repo_name: TKPaken/beginners
+site_name: Introduction to Paken
+site_url: https://tkpaken.github.io/introduction/
+repo_url: https://github.com/TKPaken/introduction/
+repo_name: TKPaken/introduction
 site_author: 筑駒パ研
 site_description: >-
   筑駒パ研の新入生用サイト
@@ -16,7 +16,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/TKPaken/beginners
+      link: https://github.com/TKPaken/introduction
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/tk_paken
 
