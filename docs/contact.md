@@ -2,7 +2,7 @@
 
 以下のフォームに必要事項を記入して送ることで体験入部ができます。
 
-<a href="https://forms.gle/HNpDqazYN98NL4ieA" target="_blank"><font size="5">フォームのリンク</font></a>
+<a href="https://forms.gle/x3NAtssqHGdGVoMG7" target="_blank"><font size="5">フォームのリンク</font></a>
 
 <!--- 学校から配布されている `@tsukukoma-gafe.org` のアカウントでサインインした後、これに回答してください。 --->
 
